@@ -9,6 +9,6 @@ title: "About"
 <title>pdf_viewer</title>
 </head>
 <body>
-    <iframe width="100%" height="800" src="/images/Resume_Jay Lee.pdf"></iframe>
+    <iframe width="100%" height="800" src="/assets/images/SampleResume.pdf"></iframe>
 </body>
 </html>
