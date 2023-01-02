@@ -1,3 +1,13 @@
+---
+title: "Snowflake Case Study"
+date: 2019-04-18T15:34:30-04:00
+categories:
+  - Case Study
+tags:
+  - Snowflake Case Study
+  - Case Study
+---
+
 Listed Below is the Sample File
 <p>
 {
