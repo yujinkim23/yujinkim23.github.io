@@ -4,4 +4,3 @@
 <img src="/assets/images/Slide 1.png" style="zoom:70%;" class="center" />
 </a>
 </div><br><br><br>
-
