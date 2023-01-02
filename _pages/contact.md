@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-layout: Contact
+layout: page
 permalink: /contact/
 author_profile: true
 ---
