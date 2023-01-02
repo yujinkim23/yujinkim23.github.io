@@ -1,6 +1,6 @@
 ---
 title: "Snowflake Case Study"
-date: 2019-04-18T15:34:30-04:00
+date: 2023-01-01T15:34:30-04:00
 categories:
   - Case Study
 tags:
