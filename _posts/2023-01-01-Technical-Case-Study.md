@@ -22,5 +22,5 @@ tags:
 <p><img src="/assets/images/Slide-10.JPG" alt="Slide 10" width="900" height="600"></p> 
 <p><img src="/assets/images/Slide-11.JPG" alt="Slide 11" width="900" height="600"></p>
 <p><img src="/assets/images/Slide-12.JPG" alt="Slide 12" width="900" height="600"></p>
-</a>
+  
 </div><br><br><br>
