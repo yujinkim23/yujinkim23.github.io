@@ -1,3 +1,13 @@
+---
+title: "Technical Case Study involving Patient Satisfaction via Survey Analytics"
+date: 2023-01-01T15:34:30-04:00
+categories:
+  - Case Study
+tags:
+  - Blog
+  - Case Study
+---
+
 <div style='text-align:center'>
 <h5>[Technical Case Study By Yujin Kim]</h5>
 <img src="/assets/images/Slide-1.JPG" alt="Slide 1" width="900" height="600">
