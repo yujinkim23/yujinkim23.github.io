@@ -1,8 +1,8 @@
 ---
-title: "Contact"
 layout: page
+title: "Contact"
 permalink: /contact/
-author_profile: true
+
 ---
 
 <div class="form-box">
