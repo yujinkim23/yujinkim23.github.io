@@ -63,7 +63,7 @@ author:
   bio    : "An amazing woman with beautiful and inspiring thoughts."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-linkedin"
+      icon: "fas fa-fw fa-link"
       url: "https://linkedin.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -72,11 +72,11 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-linkedin"
+      icon: "fas fa-fw fa-link"
       url: "https://linkedin.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/yujinkim23"
 
 defaults:
   # _posts
