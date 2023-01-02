@@ -62,30 +62,21 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "An amazing woman with beautiful and inspiring thoughts."
   links:
-    - label: "Website Sample"
-      icon: "fas fa-fw fa-link"
-      url: "https://google.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://linkedin.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jameskang35"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/yujinatdawn/"
+      url: "https://github.com/yujinkim23"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://linkedin.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yujinatdawn/"
 
 defaults:
   # _posts
