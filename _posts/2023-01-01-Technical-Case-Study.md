@@ -7,21 +7,21 @@ tags:
   - Blog
   - Case Study
 ---
-<h5>Yujin Kim, MS in Business Analytics at UCSD - Class of 2023</h5>
 
-1. Introduction
+<h1 style="color:black;font-size:10px;">Yujin Kim, MS in Business Analytics at UCSD - Class of 2023</h1>     
+<br>1. Introduction</br>
 Every year, all U.S. hospitals that accept payments from Medicare and Medicaid must submit quality data to The Centers for Medicare and Medicaid Services (CMS). CMS' Hospital Compare program is a consumer-oriented website that provides information on "the quality of care hospitals are providing to their patients." CMS releases this quality data publicly in order to encourage hospitals to improve their quality and to help consumer make better decisions about which providers they visit. Detailed information about the dataset can be found here.
 
 This project aims to deliver actionable business solutions and insight for the healthcare leadership analyzing the hospital satisfaction survey data.
-
+<br></br>
 2. Analysis used:
-<p>-Simple linear regression</p>
-<p>-Correlation Matrix</p>
-<p>-Linear regression modeling - hypothesis test</p>
-
+<br>-Simple linear regression</br>
+<br>-Correlation Matrix</br>
+<br>-Linear regression modeling - hypothesis test</br>
+<br></br>
 3. Tools / Libraries used:
-<p>-Python(pandas, numpy, matplot, seaborn)</p>
-<p>-Radiant(regression)</p>
+<br>-Python(pandas, numpy, matplot, seaborn)</br>
+<br>-Radiant(regression)</br>
 
 <div style='text-align:center'>
 <h5>[Technical Case Study By Yujin Kim]</h5>
@@ -31,7 +31,8 @@ This project aims to deliver actionable business solutions and insight for the h
 <p><img src="/assets/images/Slide-4.JPG" alt="Slide 4" width="1200" height="900"></p>
 We can see the bar chart below to understand the mean scores better. The mean of the recommendation intention is 71, while the highest mean is 85 in the discharge communication and the lowest is 45 in the preference acceptance. I want to ask a question here. In order to boost the recommendation intention, which indicator should we focus on? How can we make an informed decision?
 <p><img src="/assets/images/Slide-5.JPG" alt="Slide 5" width="1200" height="900"></p>
-I conducted a simple linear regression analysis to uncover the relationship between recommendation intention and other variables, revealing quite exciting outcomes. So the positive linear relationships between two variables show that as one gets a higher score, the other gets a higher score. The two strong positive relationships with the rating are observed in preference acceptance and patients' understanding of healthcare responsibilities.
+<p style="color:black;font-size:12px;">
+I conducted a simple linear regression analysis to uncover the relationship between recommendation intention and other variables, revealing quite exciting outcomes. So the positive linear relationships between two variables show that as one gets a higher score, the other gets a higher score. The two strong positive relationships with the rating are observed in preference acceptance and patients' understanding of healthcare responsibilities.</p>  
 <p><img src="/assets/images/Slide-6.JPG" alt="Slide 6" width="1200" height="900"></p> 
 Now, we move on to see the result of correlation analysis. Correlation quantifies the degree to which two variables are related with the direction and strength. So the correlation score ranges from -1 to 1, and if the score is more toward 1, that shows a strong positive correlation. And with this correlation matrix for the recommendation intention in the blue box, we can see the highest positive correlation in preference acceptance(0.75) and patients' understanding of healthcare responsibilities(0.73).
 <p><img src="/assets/images/Slide-7.JPG" alt="Slide 7" width="1200" height="900"></p>
