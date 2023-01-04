@@ -45,4 +45,4 @@ I conducted a simple linear regression analysis to uncover the relationship betw
 <p><img src="/assets/images/Slide-11.JPG" alt="Slide 11" width="1200" height="900"></p>
 <p><img src="/assets/images/Slide-12.JPG" alt="Slide 12" width="1200" height="900"></p>
   
-</div><br><br><br>
+</div><br>
