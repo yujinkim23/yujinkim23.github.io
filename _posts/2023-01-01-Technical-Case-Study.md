@@ -9,7 +9,7 @@ tags:
 ---
 
 <h1 style="color:white;font-size:25px;">Yujin Kim, MS in Business Analytics at UCSD - Class of 2023</h1>     
-1. Introduction<
+1. Introduction
 <p style="color:white;font-size:15px;">
 Every year, all U.S. hospitals that accept payments from Medicare and Medicaid must submit quality data to The Centers for Medicare and Medicaid Services (CMS). CMS' Hospital Compare program is a consumer-oriented website that provides information on "the quality of care hospitals are providing to their patients." CMS releases this quality data publicly in order to encourage hospitals to improve their quality and to help consumer make better decisions about which providers they visit. Detailed information about the dataset can be found here.
 <br>
