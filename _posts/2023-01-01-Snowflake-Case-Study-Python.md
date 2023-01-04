@@ -92,6 +92,7 @@ print(cs.fetchmany(2))
 
 <p>1) Extract and load the 41 comma delimited purchases data files and
 form a single table of purchases data:</p>
+
 ```html
 a. Created the destination table.
 b. Then used the PUT command to copy the local files into the Snowflake staging area for the table.
@@ -142,10 +143,12 @@ print(cs.fetchmany(4))
 [(1918,)]
 
 <h5>2) Create a calculated field that shows purchase order totals:</h5>
+
 ```html
 # Deleting the columns from Purchase_Data table that only have NULL values: Comments, InternalComments
 cs.execute('ALTER TABLE MPD DROP COLUMN Comments, InternalComments')
 ```
+
 ```html
 # Create a calculated View
 cs.execute('CREATE OR REPLACE VIEW POAmount AS SELECT DISTINCT purchaseorderid,\
@@ -158,6 +161,7 @@ print(cs.fetchmany(1918))
 [('View POAMOUNT successfully created.',)]
 
 <h5>3) Extract and load the supplier invoice XML data:</h5>
+
 ```html
 # Create invoice XML table
 cs.execute("CREATE OR REPLACE TABLE invoiceXML (xmldoc VARIANT)")
@@ -200,6 +204,7 @@ print(cs.fetchmany(1)
 
 <h5>4) Join the purchase data from step 2 and the supplier invoices data
 from step 3:</h5>
+
 ```html
 cs.execute("SELECT a.*, b.POAmount FROM Invoice a LEFT JOIN POAmount b USING (purchaseorderid)")
 print(cs.fetchmany(1))
@@ -209,6 +214,7 @@ print(cs.fetchmany(1))
 
 <h5>5) Create a calculated field that shows the difference between
 AmountExcludingTax and POAmount:</h5>
+
 ```html
 cs.execute('CREATE OR REPLACE TABLE purchase_orders_and_invoices AS SELECT A.* , B.POAmount, (A.AmountExcludingTax - B.POAmount) AS invoiced_vs_quoted FROM Invoice A\
      LEFT JOIN POAmount B ON A.PurchaseOrderID = B.PurchaseOrderID')
@@ -218,6 +224,7 @@ print(cs.fetchmany(1))
 [('Table PURCHASE_ORDERS_AND_INVOICES successfully created.',)]
 
 <h5>6) Extract the supplier_case data from postgres:</h5>
+
 ```html
 cs.execute('CREATE DATABASE IF NOT EXISTS Supplier_Case')
 cs.execute('USE DATABASE Supplier_Case')
@@ -227,6 +234,7 @@ cs.execute('CREATE STAGE IF NOT EXISTS Supplier_Case_Stage')
 ```
 ::: {.output .execute_result execution_count="70"}
 <snowflake.connector.cursor.SnowflakeCursor at 0x7f0cc5f93160>
+
 ```html
 # Create Supplier_case table
 
@@ -264,6 +272,7 @@ cs.execute("INSERT INTO supplier_case VALUES (13,'Woodgrove Bank',7,45,46,NULL,6
 data(NOAACD2019R) and extract weather data for each unique zip code in
 the Supplier_Case table. Load ZCTA data to find weather stations closest
 to each zip code:</h5>
+
 ```html
 cs.execute('CREATE DATABASE IF NOT EXISTS Gazetteer2021')
 cs.execute('USE DATABASE Gazetteer2021')
@@ -300,8 +309,9 @@ cs.execute('CREATE OR REPLACE VIEW zctaNOA AS SELECT A.*, B.geoid \
 ::: {.output .execute_result execution_count="140"}
 <snowflake.connector.cursor.SnowflakeCursor at 0x7f0cc45c75b0>
 
-<h5>8) Creat a VIEW that contains zip codes from the supplier data, date,
+<h5>8) Create a VIEW that contains zip codes from the supplier data, date,
 and daily high temperatures:</h5>
+
 ```html
 cs.execute('CREATE OR REPLACE VIEW supplier_zip_code_weather AS SELECT a.geoid AS zip_code, a."Date", MAX(a."Value") AS High_temp \
             FROM Gazetteer2021.Gazetteer_Schema.zctaNOA a \
@@ -313,6 +323,7 @@ cs.execute('CREATE OR REPLACE VIEW supplier_zip_code_weather AS SELECT a.geoid A
 
 <h5>9) Join purchase_orders_and_invoices / supplier_case /
 supplier_zip_code_weather based on zip codes:</h5>
+
 ```html
 cs.execute('SELECT * FROM MonthlyPurchaseData.MPD_Schema.purchase_orders_and_invoices a \
             JOIN Supplier_Case.Supplier_Case_Schema.Supplier_case b USING (supplierid) \
