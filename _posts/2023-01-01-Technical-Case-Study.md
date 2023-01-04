@@ -9,19 +9,19 @@ tags:
 ---
 
 <h1 style="color:white;font-size:25px;">Yujin Kim, MS in Business Analytics at UCSD - Class of 2023</h1>     
-1. Introduction
+<h5>1. Introduction</h5>
 <p style="color:white;font-size:15px;">
 Every year, all U.S. hospitals that accept payments from Medicare and Medicaid must submit quality data to The Centers for Medicare and Medicaid Services (CMS). CMS' Hospital Compare program is a consumer-oriented website that provides information on "the quality of care hospitals are providing to their patients." CMS releases this quality data publicly in order to encourage hospitals to improve their quality and to help consumer make better decisions about which providers they visit. Detailed information about the dataset can be found here.
 <br>
 This project aims to deliver actionable business solutions and insight for the healthcare leadership analyzing the hospital satisfaction survey data.</p>
 <br>
-2. Analysis used:
+<h5>2. Analysis used:</h5>
 <p style="color:white;font-size:15px;">
 <br>-Simple linear regression
 <br>-Correlation Matrix
 <br>-Linear regression modeling - hypothesis test
 </p>
-3. Tools / Libraries used:
+<h5>3. Tools / Libraries used:</h5>
 <p style="color:white;font-size:15px;">
 <br>-Python(pandas, numpy, matplot, seaborn)
 <br>-Radiant(regression)
