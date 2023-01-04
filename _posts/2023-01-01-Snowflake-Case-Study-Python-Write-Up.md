@@ -12,7 +12,7 @@ tags:
 <p><h5>1. Introduction</h5></p>
 This project's goal is to be familiar with loading data from multiple sources into Snowflake with data cleaning and manipulation. I worked with the purchase order, supplier, invoice, and weather data that should be loaded into Snowflake and then created queries that calculate differences between invoice and purchase order amounts. And lastly, I joined the external weather data based on the zip code added from third-party data.
 
-<br><h5>2. The data are stored in five different formats/sources:</h5>
+<h5>2. The data are stored in five different formats/sources:</h5>
 <br>· csv (comma delimited) – 41 files with monthly purchase order data (at the line item level)
 <br>· XML – one file with supplier invoice
 <br>· postgres – one table with supplier information
