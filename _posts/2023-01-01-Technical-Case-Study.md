@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Technical Case Study involving Patient Satisfaction via Survey Analytics"
 date: 2023-01-01T15:34:30-04:00
 categories:
