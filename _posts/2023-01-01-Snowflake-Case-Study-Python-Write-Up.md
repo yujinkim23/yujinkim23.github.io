@@ -1,6 +1,7 @@
 ---
 title: "Snowflake Case Study Python"
 date: 2023-01-01T15:34:30-04:00
+image:  '/images/2021-11-10-Rshiny/main.JPG'
 categories:
   - Case Study
 tags:
